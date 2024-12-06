@@ -3,6 +3,8 @@ mkdir ~/.local/share/themes
 mkdir ~/.local/share/icons
 mkdir ~/.local/share/fonts
 
+cp -r xfconf ~/.config/xfce4
+
 # Extracting theme and icons
 tar -xf Qogir.tar.xz -C ~/.local/share/themes
 tar -xf 01-Qogir.tar.xz -C ~/.local/share/icons
